@@ -52,30 +52,38 @@ const layers = [
 		elements: getElements(`${dir}/backgrounds/`),
 		size: { width: width, height: height }
 	},
-	/* {
+	{
 		id: 2,
-		name: 'colorsRight',
-		location: `${dir}/colorsRight/`,
+		name: 'topRightColors',
+		location: `${dir}/topRightColors/`,
 		position: { x: 0, y: 0 },
-		elements: getElements(`${dir}/colorsRight/`),
+		elements: getElements(`${dir}/topRightColors/`),
 		size: { width: width, height: height }
 	},
 	{
 		id: 3,
-		name: 'colorsLeft',
-		location: `${dir}/colorsLeft/`,
+		name: 'topLeftColors',
+		location: `${dir}/topLeftColors/`,
 		position: { x: 0, y: 0 },
-		elements: getElements(`${dir}/colorsLeft/`),
+		elements: getElements(`${dir}/topLeftColors/`),
 		size: { width: width, height: height }
 	},
 	{
 		id: 4,
-		name: 'colorsBottom',
-		location: `${dir}/colorsBottom/`,
+		name: 'bottomRightColors',
+		location: `${dir}/bottomRightColors/`,
 		position: { x: 0, y: 0 },
-		elements: getElements(`${dir}/colorsBottom/`),
+		elements: getElements(`${dir}/bottomRightColors/`),
 		size: { width: width, height: height }
-	}, */
+	},
+	{
+		id: 5,
+		name: 'bottomLeftColors',
+		location: `${dir}/bottomLeftColors/`,
+		position: { x: 0, y: 0 },
+		elements: getElements(`${dir}/bottomLeftColors/`),
+		size: { width: width, height: height }
+	},
 	{
 		id: 6,
 		name: 'outlines',
